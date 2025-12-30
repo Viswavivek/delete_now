@@ -1,1 +1,7 @@
-nsdfjgsjdflksdf ew yml file 22222
+name: CI
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
